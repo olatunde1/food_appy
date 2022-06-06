@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope&family=Nunito+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: unset;
+    font-family:'Poppins', sans-serif;
+    /* -webkit-tap-highlight-color: transparent; */
+}
+
+
+html,
+body{
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+
+}
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+.nav #navbar{
+    overflow: hidden;
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+   
+    /* background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+     */
+}
+
+.nav-link{
+    color: black;
+    border-top:0 ;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid transparent;
+}
+
+.nav-link:hover{
+    color: red;
+    border-top:0 ;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid grey;
+}
+
+
+.foodApp{
+    position: relative;
+    width: 100%;
+    height: 709px;
+    background-image: url("./images/Rectangle48.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.app{
+    text-align: center;
+    padding-top: 73px;
+    color: #ffffff;
+   
+}
+
+
+.stayHungry{
+    font-size: 58px;
+    font-weight: bold;
+}
+
+
+.foodAppDownload{
+    font-size: 24px;
+}
+
+.playstore{
+    /* margin-top: 54px; */
+    background-color:transparent;
+    outline: none;
+    border: 2px solid white;
+    margin-right: 10px;
+    color: #ffffff;
+    border-radius: 32px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 24px;
+}
+.playstore:hover{
+    background-color: red;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    color: #ffffff;
+    border-radius: 32px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 24px;
+}
+.apple{
+    margin-top: 54px;
+    background-color:transparent;
+    outline: none;
+    border: 2px solid white;
+    margin-right: 10px;
+    color: #ffffff;
+    border-radius: 32px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 24px;
+}
+
+.apple:hover{
+    background-color: red;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    color: #ffffff;
+    border-radius: 32px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 24px;
+}
+
+.mobileApp{
+    position: absolute;
+    top: 65%;
+    left: 18%;
+    bottom: 0%;
+}
+.mobileApp img{
+    width: 100%;
+}
+
+
+.cont{
+    position: relative;
+    margin-top: 50%;
+    background-color:gray;
+    height: 1px;
+    width: 800px;
+    left: 14%;
+    
+}
+
+
+.how-it-works{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.create-an-account{
+    color: red;
+    font-size: 24px;font-weight: 700;
+}
+
+.create-login{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.account-brief{
+    font-size: 18px;
+    color: #737373;
+}
+
+.text-area{
+    margin-top: 320px;
+}
+
+
+/*Section for app download*/
+.premium{
+    max-width: 100%;
+    height: 500px;
+    background-image: url("./images/Rectangle\ 47.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.downloadAppNow{
+    padding-top: 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.playstoreD{
+    /* margin-top: 54px; */
+    background-color:transparent;
+    outline: none;
+    border: 2px solid white;
+    margin-right: 10px;
+    color: #ffffff;
+    border-radius: 20px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+}
+.playstoreD:hover{
+    background-color: red;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    color: #ffffff;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 18px;
+}
+.appleD{
+    margin-top: 54px;
+    background-color:transparent;
+    outline: none;
+    border: 2px solid white;
+    margin-right: 10px;
+    color: #ffffff;
+    border-radius: 20px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+}
+
+.appleD:hover{
+    background-color: red;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    color: #ffffff;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 18px;
+}
+
+footer{
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+.social-link img{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.copywright{
+    margin-top: 15px;
+    font-size: 12px;
+    color: #5C5C5C;
+}
