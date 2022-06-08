@@ -40,6 +40,11 @@ body{
      */
 }
 
+a {
+    color:#5C5C5C;
+    text-decoration: none;
+    background-color: transparent;
+}
 .nav-link{
     color: black;
     border-top:0 ;
@@ -48,12 +53,23 @@ body{
     border-bottom: 5px solid transparent;
 }
 
-.nav-link:hover{
-    color: #FA4A0C;
-    border-top:0 ;
+.nav-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:#FA4A0C;
+    transition: width .3s;
+}
+
+.nav-link:hover::after{
+    
+    /*border-top:0 ;
     border-left: 0;
     border-right: 0;
-    border-bottom: 5px solid grey;
+    border-bottom: 5px solid grey; */
+    width: 100%;
+    transition: width .3s;
 }
 
 
@@ -148,7 +164,7 @@ body{
 .mobileApp{
     position: absolute;
     height: 492px;
-    left: 30%;
+    left: 22%;
     top: 500px;
 }
 .mobileApp img{
@@ -282,7 +298,7 @@ footer{
 
 /******** MOBILE RESPONSIVENESS SECTION******** */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:640px) {
     .navbar-toggler {
         padding: 0.25rem 0.75rem;
         font-size: 1.25rem;
@@ -511,7 +527,7 @@ footer{
     background-size: cover;
     }
     .downloadAppNow{
-    padding-top: 25px;
+    padding-top: 45px;
     font-size: 45px;
     /* font-weight: bold; */
     }
@@ -544,7 +560,7 @@ footer{
     font-size: 18px;
     }
     .appleD{
-    margin-top: 54px;
+    margin-top: 34px;
     background-color:transparent;
     outline: none;
     border: 2px solid white;
