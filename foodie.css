@@ -237,6 +237,7 @@ a {
 .playstoreD{
     /* margin-top: 54px; */
     background-color:transparent;
+    box-shadow: 0 5px 0 transparent;
     outline: none;
     border: 2px solid white;
     margin-right: 10px;
@@ -247,6 +248,10 @@ a {
     padding-top: 12px;
     padding-bottom: 12px;
     font-size: 18px;
+}
+.playstoreD:active{
+    box-shadow: none;
+    transform: translateY(5px);
 }
 .playstoreD:hover{
     background-color: #FA4A0C;
@@ -264,6 +269,7 @@ a {
 .appleD{
     margin-top: 54px;
     background-color:transparent;
+    box-shadow: 0 5px 0 transparent;
     outline: none;
     border: 2px solid white;
     margin-right: 10px;
@@ -275,7 +281,10 @@ a {
     padding-bottom: 12px;
     font-size: 18px;
 }
-
+.appleD:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
 .appleD:hover{
     background-color: #FA4A0C;
     border: none;
