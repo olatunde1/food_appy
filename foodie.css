@@ -32,12 +32,6 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
    
-   
-    /* background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    max-width: 100%;
-     */
 }
 
 a {
@@ -106,6 +100,7 @@ a {
 .playstore{
     /* margin-top: 54px; */
     background-color:transparent;
+    box-shadow: 0 5px 0 transparent;
     outline: none;
     border: 2px solid white;
     margin-right: 10px;
@@ -117,6 +112,12 @@ a {
     padding-bottom: 16px;
     font-size: 24px;
 }
+
+.playstore:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
 .playstore:hover{
     background-color: #FA4A0C;
     border: none;
@@ -130,9 +131,12 @@ a {
     padding-bottom: 18px;
     font-size: 24px;
 }
+
+
 .apple{
     margin-top: 54px;
     background-color:transparent;
+    box-shadow: 0 5px 0 transparent;
     outline: none;
     border: 2px solid white;
     margin-right: 10px;
@@ -144,6 +148,12 @@ a {
     padding-bottom: 16px;
     font-size: 24px;
 }
+
+.apple:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
 
 .apple:hover{
     background-color: #FA4A0C;
@@ -181,8 +191,6 @@ a {
     left: 14%;
     
 }
-
-
 
 .how-it-works{
     margin-top: 90px;
